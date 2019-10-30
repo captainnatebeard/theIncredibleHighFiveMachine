@@ -1,0 +1,89 @@
+/*
+       Nathan Johnson
+       October 10, 2018
+       This is the index.css page for my High Five machine.  It contains the Style
+       for the page.
+   */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  align-items: center;
+  justify-content: center;
+}
+
+#headerRed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-style: solid;
+  border-color: black;
+  padding-left: 97px;
+  padding-right: 97px;
+}
+
+#headerBlue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: Blue;
+  border-style: solid;
+  border-color: black;
+  padding-left: 97px;
+  padding-right: 97px;
+}
+
+main {
+  border-color: black;
+  border-style: groove;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: red;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-style: solid;
+  padding: 10px;
+}
+
+img {
+  border-style:double;
+  border-color: black;
+  border-width: 10px;
+}
+
+#game {
+  flex-direction: row;
+  padding: 20px;
+}
+
+#uptop {
+  height: 200px;
+  background-color: yellow;
+}
+
+#inTheMiddle {
+  height: 160px;
+  background-color: blue;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#downLow, #new {
+  height: 200px;
+  background-color: green;
+}
+
+button {
+  height: 100px;
+  width: 330px;
+  font-size: 14pt;
+}
